@@ -6,8 +6,8 @@ function Login() {
     <div className="mt-10 md:mt-[0px] min-h-screen">
       <Template
         title="Welcome Back"
-        desc1="Free shipping on any items. Get the best of Shopping and Entertainment with Ecomzy.."
-        desc2="Enjoy low prices an great deals."
+        desc1="Tell me what you eat, and I will tell you what you are."
+        desc2="Enjoy low prices foods."
         formtype="login"
       />d
     </div>

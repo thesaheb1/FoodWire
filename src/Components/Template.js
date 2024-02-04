@@ -2,8 +2,7 @@ import LoginForm from "./LoginForm";
 import SignupForm from "./SignupForm";
 import { FcGoogle } from "react-icons/fc";
 import frame from "../Assets/images/frame.png";
-import loginImg from "../Assets/images/login.jpg";
-import signupImg from "../Assets/images/signup.jpg";
+import Auth from "../Assets/images/auth.jpg";
 
 const Template = ({ title, desc1, desc2, formtype }) => {
   return (
@@ -38,7 +37,7 @@ const Template = ({ title, desc1, desc2, formtype }) => {
 
       <div className="hidden md:block relative w-11/12 max-w-[450px] z-9">
         <img width={558} height={504} src={frame} alt="background"/>
-        {formtype==="login" ? ( <img className="absolute -top-4 right-4" width={558} height={504} src={loginImg} alt="background" />) : (<img className="absolute -top-4 right-4" width={558} height={504} src={signupImg} alt="background" />)}
+        {formtype==="login" ? ( <img className="absolute -top-4 right-4 object-contain" width={558} height={504} src={Auth} alt="background" />) : (<img className="absolute -top-4 right-4" width={558} height={504} src={Auth} alt="background" />)}
       </div>
     </div>
   );
